@@ -11,8 +11,8 @@ namespace AIFeedback.Services
 
         public AIService()
         {
-            string endpoint = "https://i22m-m3in499z-westeurope.openai.azure.com/";
-            string key = "BvxxwtmW5qmCcJpyKNNT0NkJjoCofoaEXpFSLwevwJ6d5XKPq1tJJQQJ99AKAC5RqLJXJ3w3AAAAACOGTiEi";
+            string endpoint = "hidden";
+            string key = "hidden";
             var credential = new ApiKeyCredential(key);
 
             var client = new AzureOpenAIClient(new Uri(endpoint), credential);
